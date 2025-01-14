@@ -1,0 +1,18 @@
+body{
+  background-color: #f6fcff;
+  background-image: url("../images/main_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+/* 정중앙 위치
+화면의 너비는 화면 크기 */
+.character{
+  /* 이미지는 inline 요소라 가운데로 안간다 */
+  /* 이미지를 블럭 요소로 변화 해서 처리 */
+  /* display: block; */
+  width: 100%;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
